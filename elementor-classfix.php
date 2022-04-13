@@ -15,7 +15,7 @@ add_action( 'plugins_loaded', function() {
       class Scheme_Color extends Core\Schemes\Color {}
     }
 	
-	if ( ! class_exists( 'Elementor\Scheme_Typography' ) ) {
+    if ( ! class_exists( 'Elementor\Scheme_Typography' ) ) {
       class Scheme_Typography extends Core\Schemes\Typography {}
     }
   }
